@@ -1,0 +1,1 @@
+My very first landing page from scratch. This is a part of The Odin Project course that I'm currently taking in order to develop my coding skills.
