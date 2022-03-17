@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html, body {
     height: 100%
 }
@@ -9,9 +11,87 @@ body {
     flex-direction: column;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 0px 50px 100px 50px;
+}
+
+.container-left{
+    
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 200px;
+    background-color: rgb(229, 231, 235, .4);
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+}
+
+.container, .text {
+    font-size: 12px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    border: 3px solid #3882F6;
+    gap: 5px;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 15px;
+    padding: 0;
+}
+
 .header {
     color: white;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    color: white;
+    background-color: #1F2937;
+}
+
+.intro {
+    display: flex;
 }
 
 .footer {
@@ -19,4 +99,37 @@ body {
     justify-content: center;
     color: white;
     background-color: #1F2937;
+}
+
+.sign-up {
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    border: none;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 700px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 30px 70px 30px 70px;
+}
+
+.cta-title {
+    font-weight: 600;
+}
+
+.call-to-action .sign-up {
+    border: 1px solid white;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
 }
